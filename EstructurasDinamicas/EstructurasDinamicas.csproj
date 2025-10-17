@@ -52,16 +52,27 @@
     <Compile Include="Formularios\FrmPila.Designer.cs">
       <DependentUpon>FrmPila.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FrmPila2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmPila2.Designer.cs">
+      <DependentUpon>FrmPila2.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmInicio.Designer.cs">
       <DependentUpon>FrmInicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelos\Expediente.cs" />
+    <Compile Include="Negocios\Becas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\FrmPila.resx">
       <DependentUpon>FrmPila.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmPila2.resx">
+      <DependentUpon>FrmPila2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmInicio.resx">
       <DependentUpon>FrmInicio.cs</DependentUpon>

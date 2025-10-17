@@ -65,13 +65,27 @@ namespace EstructurasDinamicas.Formularios
 
         private void btnMostrarU_Click(object sender, EventArgs e)
         {
-            pila.Peek();
-            //Mostrar ultimo elemento
-            int elemento = pila.Peek();
+            
+            try
+            {
+
+                pila.Peek();
+
+                int elemento = pila.Peek();
 
 
+                lblPila.Text = "Ultimo elemento ingresado: " + elemento.ToString();
+            }
+            catch (InvalidOperationException)
+            {
+                MessageBox.Show("Pila vacía",
+                    "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            }
 
 
+            
         }
+
     }
 }

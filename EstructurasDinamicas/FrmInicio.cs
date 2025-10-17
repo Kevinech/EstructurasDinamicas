@@ -24,5 +24,11 @@ namespace EstructurasDinamicas
         {
             new FrmPila().ShowDialog();
         }
+
+        private void becaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmPila2().ShowDialog();
+
+        }
     }
 }
